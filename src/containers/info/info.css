@@ -1,0 +1,27 @@
+.prof__info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 2rem;
+    gap: 50px;
+
+
+}
+
+@media screen and (max-width: 1050px) {
+    .prof__info { 
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .prof__info { 
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .prof__info { 
+        flex-direction: column;
+    }
+}
