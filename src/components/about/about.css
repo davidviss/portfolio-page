@@ -1,10 +1,13 @@
 .prof__about {
+    max-width: 688px;
+    max-height: 410;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 
     padding: 2rem 6rem;
+    padding-bottom: 6rem;
     background: var(--color-box);
 }
 

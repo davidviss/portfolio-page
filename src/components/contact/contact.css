@@ -1,0 +1,110 @@
+.prof__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 27px;
+}
+
+
+.prof__form h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.prof__form-name input, .prof__form-email input, 
+.prof__form-message textarea {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 10px;
+    gap: 10px;
+
+    width: 415px;
+    height: 46px;
+    border: 2px solid #3D3D3D;
+    border-radius: 18px;
+    background: none;
+}
+
+.prof__form-message textarea {
+    height: 117px;
+}
+
+.prof__form-name label, input,  .prof__form-email label, input,
+.prof__form-message label, textarea {
+    width: 61px;
+    height: 30px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #363636;
+}
+
+.prof__form-message textarea::-webkit-scrollbar {
+    display: none;
+  }
+
+.prof__form-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 6px 35px;
+    gap: 10px;
+
+    background: linear-gradient(180deg, #2D2D2D 0%, #1E1E1E 100%);
+    box-shadow: 1px 4px 36px rgba(77, 77, 77, 0.5);
+    border-radius: 18px;
+
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #E5E5E5;
+    margin: 2rem auto;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .prof__form h1 { 
+        font-size: 36px;
+        line-height: 60px;
+    }
+    
+}
+
+@media screen and (max-width: 650px) {
+    .prof__form h1 { 
+        font-size: 32px;
+        line-height: 56px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .prof__form h1 { 
+        font-size: 28px;
+        line-height: 50px;
+    }
+
+    .prof__form-name input, .prof__form-email input, 
+    .prof__form-message textarea {
+        width: 330px;
+    }
+
+}
+
+@media screen and (max-width: 351px) {
+    .prof__form-name input, .prof__form-email input, 
+    .prof__form-message textarea {
+        width: 250px;
+    }
+
+}

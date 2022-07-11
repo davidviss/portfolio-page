@@ -4,7 +4,7 @@
   --font-family: 'Poppins', sans-serif;
 
   --gradient-text: linear-gradient(300deg, rgba(54, 54, 54, 1) 0%, rgb(73, 73, 73) 50%, rgba(20, 20, 20, 1) 100%);
-  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  --gradient-orange: linear-gradient(90deg, rgba(220, 141, 5, 1) 1%, rgba(216, 54, 5, 1) 100%);
   
   --color-bg: rgba(236, 238, 242, 0.5);
   --color-box: radial-gradient(54.75% 55.14% at 43.28% 42.57%, rgba(127, 145, 162, 0.075) 55.82%, rgba(215, 219, 227, 0.075) 100%), rgba(236, 238, 242, 0.1);

@@ -4,8 +4,8 @@ import "./info.css"
 import {About, Skills} from "../../components"
 function Info() {
   return (
-    <div className='Info'>
-      <div className='prof__info section_margin'>
+    <div className='prof__info'>
+      <div className='prof__info-content section_margin'>
         <div className='prof__info-about' id="about">
           <About />
         </div>

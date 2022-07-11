@@ -7,6 +7,9 @@
 
 body {
   background: var(--color-bg);
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
 }
 
 a {
@@ -16,6 +19,13 @@ a {
 
 .gradient__text {
   background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient__orange {
+  background: var(--gradient-orange);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

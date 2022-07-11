@@ -1,4 +1,6 @@
 .prof__skills {
+    max-width: 688px;
+    max-height: 410;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

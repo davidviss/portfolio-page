@@ -8,12 +8,13 @@ function Header() {
         <p1>Welcome to my portfolio page</p1>
         <h1 className='gradient__text'>
         Hi! I’m David
-        <br/>
+        <br/></h1>
+        <h2 className='gradient__orange'>
         CS Student  
-        </h1>
+        </h2>
         <p2>Lorem ipsum dolor sit amet, consectetur <br/> adipiscing elit. 
         Velit dictum nec mi sed <br/> velit fusce congue suscipit aliquet. </p2>
-        <button type='button'>Contact me!</button>
+        <a href="#contact"><button type='button'>Contact me!</button></a>
       </div>
       <div className='prof__header-image'>
         <img src={profile} alt="profile" />
