@@ -10,4 +10,5 @@
   --color-box: radial-gradient(54.75% 55.14% at 43.28% 42.57%, rgba(127, 145, 162, 0.075) 55.82%, rgba(215, 219, 227, 0.075) 100%), rgba(236, 238, 242, 0.1);
   --color-text: rgba(52, 52, 52, 0.5);
   --color-mobile: rgba(236, 238, 242, 1);
+  --color-button: linear-gradient(180deg, #2D2D2D 0%, #1E1E1E 100%);
 }
