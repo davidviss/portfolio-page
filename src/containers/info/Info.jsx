@@ -1,5 +1,4 @@
 import React from 'react'
-import { findRenderedComponentWithType } from 'react-dom/test-utils'
 import "./info.css"
 import {About, Skills} from "../../components"
 function Info() {
