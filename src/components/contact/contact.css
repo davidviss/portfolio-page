@@ -48,7 +48,7 @@
     display: none;
   }
 
-.prof__form-button {
+.prof__form-form button {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -70,6 +70,11 @@
     outline: none;
     cursor: pointer;
     border: none;
+    transition: all .25s ease-in-out;
+}
+
+.prof__form-form button:hover {
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 1050px) {

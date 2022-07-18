@@ -69,6 +69,7 @@
     outline: none;
     cursor: pointer;
     border: none;
+    transition: all .25s ease-in-out;
     
 }
 
@@ -90,6 +91,15 @@
     margin: 0 auto;
     margin-right: 0;
     filter: drop-shadow(1px 4px 36px rgb(77 77 77 / 0.5));
+    transition: all .2s ease-in-out;
+}
+
+.icon__github:hover , .icon__linkedin:hover{
+    transform: scale(1.2);
+}
+
+.prof__header-content button:hover {
+    transform: scale(1.1);
 }
 
 .prof__header-images {
