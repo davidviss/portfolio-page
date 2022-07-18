@@ -25,9 +25,15 @@ function Header() {
         </div>
 
       </div>
-      <div className='prof__header-image'>
-        <img src={profile} alt="profile" />
+      <div className='prof__header-images'>
+        <div className='prof__header-image'>
+          <img src={profile} alt="profile" />
+        </div>
+        <div className='prof__header-image'>
+          <img src={profile} alt="profile" />
+        </div>
       </div>
+      
     </div>
       
   )
